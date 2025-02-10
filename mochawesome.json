@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2025-01-30T14:32:59.664Z",
+    "end": "2025-01-30T14:34:03.250Z",
+    "duration": 63586
+  },
+  "results": [
+    {
+      "uuid": "f36c0672-99f6-4633-a151-4def27f3d5cc",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Sanity-check.spec.js",
+      "file": "cypress\\e2e\\Sanity-check.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "691a7f05-cf24-4f4d-af89-ffaa13f49aed",
+          "title": "Sanity Check",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "55f29645-30eb-45ab-b30a-75b001bc1f9c",
+              "title": "second part",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "14 - ",
+                  "fullTitle": "Sanity Check second part 14 - ",
+                  "timedOut": null,
+                  "duration": 33231,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "//cy.wait(3000)\n// click on see all my meetings\ncy.get('[key=\"arrow-right\"]').eq(2).click();\ncy.get('[data-unique-id=\"request-container\"]');",
+                  "err": {},
+                  "uuid": "4a9a5b34-9f90-40c3-a28a-0fef05770a5b",
+                  "parentUUID": "55f29645-30eb-45ab-b30a-75b001bc1f9c",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "15 - ",
+                  "fullTitle": "Sanity Check second part 15 - ",
+                  "timedOut": null,
+                  "duration": 26925,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "//cy.wait(3000)\n// click on \"rencontre auquelles je participerai\"\ncy.get('[key=\"arrow-right\"]').eq(1).click();\ncy.get('[data-unique-id=\"meeting-container\"]');",
+                  "err": {},
+                  "uuid": "ed9ca8f9-b7b1-4d98-819a-b76ee0df831b",
+                  "parentUUID": "55f29645-30eb-45ab-b30a-75b001bc1f9c",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "4a9a5b34-9f90-40c3-a28a-0fef05770a5b",
+                "ed9ca8f9-b7b1-4d98-819a-b76ee0df831b"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 60156,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": true,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

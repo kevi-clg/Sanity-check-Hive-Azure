@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2025-01-30T14:32:59" tests="0" file="cypress\e2e\Sanity-check.spec.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Sanity Check" timestamp="2025-01-30T14:32:59" tests="0" time="0.000" failures="0"></testsuite>
+<testsuite name="second part" timestamp="2025-01-30T14:32:59" tests="2" time="63.576" failures="0">
+  
+  <testcase name="Sanity Check second part 14 - " time="33.231" classname="14 - "></testcase>
+  
+  <testcase name="Sanity Check second part 15 - " time="26.925" classname="15 - "></testcase>
+  
+</testsuite>
+
+</testsuites>
